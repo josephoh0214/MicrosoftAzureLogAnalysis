@@ -25,7 +25,7 @@ function App() {
           &emsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel leo vitae nibh scelerisque finibus. Nam malesuada nisi ipsum, id ornare orci porta et. Quisque sodales augue vitae egestas elementum. Proin molestie tellus vitae leo eleifend sollicitudin. Proin ac tempus metus. Curabitur non nunc risus. Nunc ornare, purus in varius faucibus, nulla mauris blandit odio, quis gravida quam ex vel nisl. Pellentesque malesuada nisi vel tortor cursus, in volutpat eros porta. Nunc elementum in metus nec auctor. Etiam ac ex egestas, viverra nisl sed, eleifend massa. Donec iaculis accumsan leo, eu interdum tortor maximus ut. Nulla sagittis nisl vestibulum auctor iaculis. Mauris enim urna, lobortis at nunc in, eleifend iaculis mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce id placerat quam, sit amet tempus nunc. Integer eget aliquam sem.
         </p>
         </div>
-      </div>Î
+      </div>
       <div className="Parallax__content__topics" style={{ transform: `translateY(${-offsetY * 0.5}px)` }}>
         <div className="Parallax__content__topics__texts">
           <h2> Introduction </h2>
@@ -50,12 +50,12 @@ function App() {
               &emsp; To protect the integrity and confidentiality of client data, internal and Microsoft owned tools were used to conduct the analysis. The data has also been scrubbed for PII and underwent CELA review prior to our initial reception.
             </p>
             <h3>
-              Key terms
+              1. Key terms
             </h3>
             <p> &emsp; Understanding Azure policies and initiatives is central to this research. That is where the data is coming from. Azure Policy is a service in Azure which allows you create polices which enforce and control the properties of a resource. When these policies are used, they enforce different rules and effects over your resources, so those resources stay compliant with your IT governance standards. </p>
             <p> &emsp; Azure initiative is a collection of Azure policy definitions that are grouped together towards a specific goal or purpose in mind. </p>
             <h3>
-              Technology stack
+              2. Technology stack
             </h3>
             <ul>
               <li className='subtitle'>Azure DevOps Pipeline Integration </li>
@@ -67,13 +67,13 @@ function App() {
             </ul>
 
             <h3>
-              Personas
+              3. Personas
             </h3>
             <p>&emsp; In order to provide an analysis of the data that meets the expectations of everyone in the Microsoft SLAM team who will interact with it, we created personas based off of employee input. </p>
             <p>&emsp; Shogun here, is a persona used to create a shared understanding amongst our team for a specific type of user that will utilize our research. </p>
 
             <h3>
-              Research Findings (mock NSG logs from Contoso Hotel)
+              4. Research Findings (mock NSG logs from Contoso Hotel)
             </h3>
             <ul>
               <li className='subtitle'>Qualitative</li>
