@@ -93,29 +93,22 @@
   .Parallax {
     display: flex;
     justify-content: center;
-    &__background,
-    &__background-triangles {
-      background-repeat: no-repeat;
-      position: absolute;
-      object-fit: cover;
-
-    }
   
     &__background {
       background-image: url("microsoft_background.jpeg");
       width: 100%;
-      height: 110%
+      height: 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      object-fit: cover;
     }
-  
-    // &__background-triangles {
-    //   background-image: url("background-triangles.png");
-    // }
-  
+ 
     &__content {
       display: flex;
       flex-direction: column;
       z-index: 1;
       margin-top: 50px;
+      // height: 5800px;
       &__header {
         margin: 30px;
         width: 80%;
