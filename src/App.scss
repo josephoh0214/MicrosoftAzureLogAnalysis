@@ -80,10 +80,19 @@
     margin: 4%;
   }
   
+  .viz {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    // column-gap: 10px;
+  }
+
   .Parallax {
     display: flex;
     justify-content: center;
-  
     &__background,
     &__background-triangles {
       background-repeat: no-repeat;
@@ -124,9 +133,11 @@
         background-color: #edecec;
         width: 100%;
           &__texts {
-            margin: 0px 100px 
+            margin: 0px 100px;
+          }
+          &__analysis {
+            align-self: center;
           }
       }
-  
     }
   }
