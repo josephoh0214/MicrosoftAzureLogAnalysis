@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from './logo.svg';
 import './App.scss';
+import { Search } from './search';
 
 
 function App() {
@@ -98,17 +99,20 @@ function App() {
   );
 
   return (
-    <section className="Parallax">
-      <div
-        className="Parallax__background"
+    <div>
+      <section className="Parallax">
+        <div
+          className="Parallax__background"
 
-      />
-      {/* <div
-        className="Parallax__background-triangles"
-        style={{ transform: `translateY(${offsetY * 0.8}px)` }}
-      /> */}
-      {renderContent()}
-    </section>
+        />
+        {/* <div
+          className="Parallax__background-triangles"
+          style={{ transform: `translateY(${offsetY * 0.8}px)` }}
+        /> */}
+        {renderContent()}
+      </section>
+      <Search/>
+    </div>
   );
 }
 

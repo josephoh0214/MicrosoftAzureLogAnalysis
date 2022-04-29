@@ -34,6 +34,51 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  #searchbox {
+    margin: 100px;
+  }
+
+  #table {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    width: 25%;
+    padding: 5px;
+  }
+
+  th {
+    padding-bottom: 20px;
+    font-size: larger;
+  }
+
+  tbody:nth-child(even) {background-color: #f2f2f2;}
+
+  #query {
+    height: 44px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+  }
+  
+  button {
+    height: 44px;
+    width: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  #searchbar {
+    text-align: center;
+    margin: 4%;
+  }
   
   .Parallax {
     display: flex;
