@@ -96,7 +96,9 @@ function App() {
           </div>
         </div>
         <DataAnalysis/>
+        <Search/>
       </div>
+
     </div>
   );
 
@@ -105,15 +107,14 @@ function App() {
       <section className="Parallax">
         <div
           className="Parallax__background"
-
-        />
+          
+          />
         {/* <div
           className="Parallax__background-triangles"
           style={{ transform: `translateY(${offsetY * 0.8}px)` }}
         /> */}
         {renderContent()}
       </section>
-      <Search/>
     </div>
   );
 }
