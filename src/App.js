@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import logo from './logo.svg';
 import './App.scss';
+
+import DataAnalysis from "./DataAnalysis";
 
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
             </ul>
           </div>
         </div>
+        <DataAnalysis/>
       </div>
     </div>
   );
