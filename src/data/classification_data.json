@@ -1,0 +1,178 @@
+{
+    "Sheet3": [
+        {
+            "Name": "GET Employees\/Create",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET Employee\/Create request. Log data from web application denotes that application is missing API function for its purpose in this case, gettng information about creating a new employee. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET Customers\/Details",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET Employee\/Details request. Log data from web application denotes that application is missing API function for its purpose, in this case its purpose is to get customer detial information. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET ServiceTickets\/Escalate",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET ServiceTickets\/Escalate request. Log data from web application denotes that application is missing API function for its purpose. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET ServiceTickets\/Close",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET ServiceTickets\/Close request. Log data from web application denotes that application is missing API function for its purpose. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET robots.txt\/Index",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET robots.txt\/Index request. Log data from web application denotes that application is missing API function for its purpose. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET .env\/Index",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET .env\/Index request. Log data from web application denotes that application is missing API function for its purpose. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET db\/webadmin",
+            "Type": "Failed Request",
+            "Common Sources": "System.Web.HttpException, System.NullReferenceException",
+            "Insight": "This log points to a failed GET db\/webadmin request. Log data from web application denotes that application is missing API function for its purpose, in this case it's to get information about the internal database server's admin. For example, service is experiencing HttpException and Null Reference Exception for each API endpoint call. Especially, Null Reference Exception takes longer time to process which decreases the performance of its service. Business that uses this Azures server needs to implement API in its server for correct operation. \n\nOther Tips:\n\n1. Double check action \/ the Submitted URL.\n2. Clear Browser Cache.\n3. Clear Browser Cookies.\n4. File Upload Exceeds Server Limit.\n5. Clear DNS Cache.\n6. Deactivate Browser Extensions.\n"
+        },
+        {
+            "Name": "GET Home\/Index",
+            "Type": "Failed Operation",
+            "Common Sources": "Azure blob",
+            "Insight": "Ths log ponts to a failed operation GET Home\/Index. Log data describes that web application is missing software dependencies such as Azure blob and Azure table which save user data into designated storage. Business that uses this server needs to check on address for the storage or non-matching tables for better user experience.\n\nOther Tips:\n1. Double check necessary software dependences for the tasks at hand.\n2. Check the specific address for storage \n3. Look into tables and database schema "
+        },
+        {
+            "Name": "POST Home\/Index",
+            "Type": "Failed Operation",
+            "Common Sources": "Azure blob",
+            "Insight": "Ths log ponts to a failed operation POST Home\/Index. Log data describes that web application is missing software dependencies such as Azure blob and Azure table which save user data into designated storage. Business that uses this server needs to check on address for the storage or non-matching tables for better user experience.\n\nOther Tips:\n1. Double check necessary software dependences for the tasks at hand.\n2. Check the specific address for storage \n3. Look into tables and database schema "
+        },
+        {
+            "Name": "HEAD Home\/Index",
+            "Type": "Failed Operation",
+            "Common Sources": "Azure blob",
+            "Insight": "Ths log points to a failed operation HEAD Home\/Index. Log data describes that web application is missing software dependencies such as Azure blob and Azure table which save user data into designated storage. Business that uses this server needs to check on address for the storage or non-matching tables for better user experience.\n\nOther Tips:\n1. Double check necessary software dependences for the tasks at hand.\n2. Check the specific address for storage \n3. Look into tables and database schema "
+        },
+        {
+            "Name": "GET Customers\/Details",
+            "Type": "Failed Operation",
+            "Common Sources": "Azure table",
+            "Insight": "Ths log points to a failed operation GET Customers\/Details. Log data describes that web application is missing software dependencies such as Azure blob and Azure table which save user data into designated storage. Business that uses this server needs to check on address for the storage or non-matching tables for better user experience.\n\nOther Tips:\n1. Double check necessary software dependences for the tasks at hand.\n2. Check the specific address for storage \n3. Look into tables and database schema "
+        },
+        {
+            "Name": "GET Employees\/Create",
+            "Type": "Failed Operation",
+            "Common Sources": "Exception Type: System.Web.Mvc.Controller.HandleUnknownAction",
+            "Insight": "This log data describes getting informaton about creating employees in server induces an error for users. Failing such important API will negatively affect its business and user experience on its web application. about 10,000 users weekly negatively experience the service."
+        },
+        {
+            "Name": "GET Customers\/Details",
+            "Type": "Failed Operation",
+            "Common Sources": "Exception Type: System.Web.Mvc.Controller.HandleUnknownAction",
+            "Insight": "This log data describes getting informaton about getting customer detials in server induces an error for users. Failing such important API will negatively affect its business and user experience on its web application. about 10,000 users weekly negatively experience the service."
+        },
+        {
+            "Name": "GET \/scripts\/",
+            "Type": "Failed Operation",
+            "Common Sources": "Exception Type: System.Web.Mvc.Controller.HandleUnknownAction",
+            "Insight": "This log data describes getting informaton about scripts in server induces an error for users. Failing such important API will negatively affect its business and user experience on its web application. about 10,000 users weekly negatively experience the service."
+        },
+        {
+            "Name": "GET \/Content\/fonts\/segoewp-light-webfont.woff",
+            "Type": "Failed Operation",
+            "Common Sources": "Exception Type: System.Web.Mvc.Controller.HandleUnknownAction",
+            "Insight": "This log data describes getting informaton about scripts in server induces an error for users. Failing such important API will negatively affect its business and user experience on its web application. about 10,000 users weekly negatively experience the service."
+        },
+        {
+            "Name": "GET \/Content\/fonts\/segoewp-webfont.woff",
+            "Type": "Failed Operation",
+            "Common Sources": "Exception Type: System.Web.Mvc.Controller.HandleUnknownAction",
+            "Insight": "This log data describes getting informaton about scripts in server induces an error for users. Failing such important API will negatively affect its business and user experience on its web application. about 10,000 users weekly negatively experience the service."
+        },
+        {
+            "Name": "Create Deployment",
+            "Type": "Failed Operation",
+            "Common Sources": "PolicyDeployment_11399061669450387371, PolicyDeployment_1206233258312677045",
+            "Insight": "This log describes failure of creating a deployment. \n\nSome things to look out for:\n\n1. Not enough testing time\n2. Not enough time to resolve findings\n3. Poorly defined success criteria\n4. Inadequate test setup\n5. Lack of familiarity with environments\n6. Inability to verify responses\n7. Failing to observe performance test results"
+        },
+        {
+            "Name": "deployIfNotExists' Policy action.",
+            "Type": "Failed Operation",
+            "Common Sources": "sqlva3bbougmaoqreg, master, Sql Server, NSG1, ubuntuvm1",
+            "Insight": "This log describes failure of deploying if the policy does not exist. This can point to a root issue with the policy itself not matching the correct parameters."
+        },
+        {
+            "Name": "Create role assignment",
+            "Type": "Failed Operation",
+            "Common Sources": "e7de7e28-924b-4652-93ae-60c64c573bf5",
+            "Insight": "This log describes failure of creating a role assignment. "
+        },
+        {
+            "Name": "Create or update resource diagnostic setting",
+            "Type": "Failed Operation",
+            "Common Sources": "SetByCustomPolicy",
+            "Insight": "This log describess failure to create or update resource diagnostic setting. This points to an error in the structure of resource not meeting the diagnostic parameters. Double check the requirements."
+        },
+        {
+            "Name": "DefaultInboundDenyAll",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of denying all under default inbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_DenyAllInBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of denying all under default inbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_AllowVnetInBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of denying all under default inbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_AllowAzureLoadBalancerInBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of allowing all under default Vnet inbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "UserRule_SSH",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of allowing all azure specific resourrces to load under default inbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_DenyAllOutBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of denying all resources under default outbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultOutboundDenyAll",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of denying all resources under default outbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_AllowInternetOutBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of allowing all under internet outbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        },
+        {
+            "Name": "DefaultRule_AllowVnetOutBound",
+            "Type": "Blocked Diagnostic",
+            "Common Sources": "NetworkSecurityGroupRuleCounter, NetworkSecurityGroupEvent",
+            "Insight": "This log describes the diagnostic that blocks resources based on the rule of allowing all under Vnet outbound operations. Try looking into what the default is set to and double check that the resource is applicable."
+        }
+    ]
+}
