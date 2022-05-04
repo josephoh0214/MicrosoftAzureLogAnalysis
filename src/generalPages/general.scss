@@ -1,0 +1,33 @@
+.box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    height: 80%;
+}
+
+.title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 50px;
+}
+
+.text {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    line-height: 3.5;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: 70%;
+}
