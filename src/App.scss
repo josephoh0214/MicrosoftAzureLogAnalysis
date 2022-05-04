@@ -24,7 +24,7 @@
     font-size: 16px;
   }
   
-  li {
+  #interviewlist {
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     padding: 5px;
@@ -52,8 +52,12 @@
   }
 
   td {
-    width: 25%;
-    padding: 5px;
+    width: auto;
+    padding: 15px;
+  }
+
+  #searchtips {
+    width: 20%
   }
 
   th {

@@ -43,11 +43,40 @@ export function HandleSearch(props) {
                     <td>{row.Type}</td>
                     <td>{row.Common_Sources}</td>
                     <td>{row.Insight}</td>
+                    <td id="searchtips">{list_tips(row.Other_Tips)}</td>
                 </tr>
             </tbody>
         )
     });
 
+    function list_tips(str) {
+        const arr = str.split(':');
+        let tips = arr[1];
+        if (tips) {
+            const ols = arr[1].split('.');
+            return (
+                <div>
+                    <ol>
+                        {orderlist(ols)}
+                    </ol>
+                </div>
+            )
+        }
+    }
+
+    function orderlist(ols) {
+        const elems = []
+        for (let i = 0; i < ols.length; i++) {
+            if (ols[i].length > 2) {
+                elems.push(<li>{ols[i]}</li>)
+            }
+        }
+        return (
+            <div>
+                {elems}
+            </div>
+        )
+    }
     // const insight_break = arr.map(() => {
 
     // })
@@ -71,6 +100,7 @@ export function HandleSearch(props) {
                         <th>Failure Type</th>
                         <th>Common Sources</th>
                         <th>Insight</th>
+                        <th>Other Tips</th>
                     </tr>
                 </thead>
                 {print}
