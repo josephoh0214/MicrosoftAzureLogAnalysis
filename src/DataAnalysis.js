@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import './App.scss';
 
 // images
@@ -7,13 +7,13 @@ import act_status from "./viz/act_status.png"
 import act_failed_oper from "./viz/act_failed_oper.png"
 
 import met_packet from "./viz/met_packet.png";
-import met_packet_reg from "./viz/met_packet_reg.png";
+// import met_packet_reg from "./viz/met_packet_reg.png";
 
 import met_log from "./viz/met_log.png";
-import met_log_reg from "./viz/met_log_reg.png";
+// import met_log_reg from "./viz/met_log_reg.png";
 
 import met_byte from "./viz/met_byte.png";
-import met_byte_reg from "./viz/met_byte_reg.png";
+// import met_byte_reg from "./viz/met_byte_reg.png";
 
 // data csv files
 import activityData from './data/azure_activity_data.csv';

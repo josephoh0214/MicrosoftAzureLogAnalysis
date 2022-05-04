@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import './App.scss';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import DataAnalysis from "./DataAnalysis";
+import { ContosoSlider } from "./contoso_slider";
+import { PipelineSlider } from "./pipeline_slider";
 
 import * as ReportPages from "./reportPages";
 import Main from "./main";

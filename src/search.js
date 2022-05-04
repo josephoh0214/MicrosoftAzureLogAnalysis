@@ -1,12 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
 import MOCK_DATA from './data/MOCK_DATA.json';
+import DATA from './data/classification_data.json';
 
 
-export function Search() {
-    const [searchQuery, setSearchQuery] = useState("");
-    const dataset = MOCK_DATA.mockdata;
+export function Search({width, height}) {
+    const [searchQuery, setSearchQuery] = useState("create");
+    const dataset = DATA.data;
     let result = [];
+    dataset[0].Insight.replace("\n", "<br />")
 
 
     const onClick = (e) => {
@@ -14,13 +16,13 @@ export function Search() {
     }
 
     for (var i = 0; i < dataset.length; i++) {
-        if (dataset[i].name.includes(searchQuery)) {
+        if (dataset[i].Name.toLowerCase().includes(searchQuery)) {
             result.push(dataset[i]);
         }
     }
 
     return (
-        <div id="searchbox">
+        <div id="searchbox" style={{width: width, height: height}}>
             <h2>Search</h2>
             <div id="searchbar">
                 <input type="text" placeholder="Search.." id="query"></input>
@@ -37,14 +39,28 @@ export function HandleSearch(props) {
         return (
             <tbody>
                 <tr>
-                    <td>{row.name}</td>
-                    <td>{row.method}</td>
-                    <td>{row.type}</td>
-                    <td>{row.insight}</td>
+                    <td>{row.Name}</td>
+                    <td>{row.Type}</td>
+                    <td>{row.Common_Sources}</td>
+                    <td>{row.Insight}</td>
                 </tr>
             </tbody>
         )
     });
+
+    // const insight_break = arr.map(() => {
+
+    // })
+
+    // function insight_break(row) {
+    //     const arr = row.Insight.split("\n");
+    //     for (var i = 0; i < arr.length; i++) {
+
+    //     }
+    //     // for (var i = 0; i < arr.length; i++) {
+    //     //     return <p>{arr.length}<br />2</p>
+    //     // }
+    // }
 
     return (
         <div id="table">
@@ -52,8 +68,8 @@ export function HandleSearch(props) {
                 <thead>
                     <tr>
                         <th>Request Name</th>
-                        <th>Request Method</th>
-                        <th>Request Type</th>
+                        <th>Failure Type</th>
+                        <th>Common Sources</th>
                         <th>Insight</th>
                     </tr>
                 </thead>
