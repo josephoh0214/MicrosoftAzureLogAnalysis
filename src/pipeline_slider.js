@@ -13,7 +13,7 @@ import pipeline7 from "./viz/pipeline7.jpg"
 
 export function PipelineSlider({width, height}) {
     return (
-        <div style={{width: width, height: height}}>
+        <div style={{width: width, height: height}} >
             <AwesomeSlider
                 media={[
                     {

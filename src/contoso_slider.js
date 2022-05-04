@@ -11,7 +11,7 @@ import contoso5 from "./viz/contoso5.jpg"
 
 export function ContosoSlider({width, height}) {
     return (
-        <div style={{width: width, height: height}}>
+        <div style={{width: width, height: height}} id="contososlider">
             <AwesomeSlider
                 media={[
                     {

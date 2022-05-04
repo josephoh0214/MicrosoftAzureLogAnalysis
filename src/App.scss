@@ -36,15 +36,11 @@
   }
 
   #searchbox {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    // margin-top: none;
+    margin: 150px;
   }
 
   #table {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 15%;
   }
 
   table {
@@ -67,6 +63,10 @@
 
   tbody:nth-child(even) {background-color: #f2f2f2;}
 
+  #contososlider, #piplineslider {
+    margin: auto;
+  }
+
   #query {
     height: 44px;
     width: 400px;
@@ -83,8 +83,8 @@
   }
 
   #searchbar {
-    text-align: center;
     margin: 4%;
+    margin-left: 30%;
   }
   
   .viz {
