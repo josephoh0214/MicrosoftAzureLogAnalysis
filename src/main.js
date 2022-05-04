@@ -19,7 +19,7 @@ const Main = ({ width, height }) => {
       <div className="sideNav">
         {slides.map( ( slideName ) => {
           return (
-            <Link activeClass="active" className={slideName} to={slideName} spy={true} smooth={true} duration={500}> <FaCircle name={slideName} color={ clicked == slideName ? "#CC8F8F" : "#808080" } size={35} onClick={() => clickFunc(slideName)}/> </Link>
+            <Link activeClass="active" className={slideName} to={slideName} spy={true} smooth={true} duration={500}> <FaCircle name={slideName} color={ clicked === slideName ? "#CC8F8F" : "#808080" } size={35} onClick={() => clickFunc(slideName)}/> </Link>
           )
         })}
       </div>

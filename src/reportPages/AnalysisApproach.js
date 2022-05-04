@@ -8,7 +8,7 @@ const AnalysisApproach = ({width, height}) => {
     const navigate = useNavigate();
 
     return (
-        <div style={{ width: width, height: height }} className="box">
+        <div style={{ width: width, height: "100%" }} className="box">
             <div className="container">
                 <h1 className="title" >
                 Analysis Approach 
