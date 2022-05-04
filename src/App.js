@@ -3,6 +3,8 @@ import './App.scss';
 import { Search } from './search';
 
 import DataAnalysis from "./DataAnalysis";
+import { ContosoSlider } from "./contoso_slider";
+import { PipelineSlider } from "./pipeline_slider";
 
 
 function App() {
@@ -96,7 +98,6 @@ function App() {
           </div>
         </div>
         <DataAnalysis/>
-        <Search/>
       </div>
 
     </div>
@@ -115,6 +116,9 @@ function App() {
         /> */}
         {renderContent()}
       </section>
+      <ContosoSlider/>
+      <PipelineSlider/>
+      <Search/>
     </div>
   );
 }
