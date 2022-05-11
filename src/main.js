@@ -10,7 +10,7 @@ import { click } from "@testing-library/user-event/dist/click";
 
 const Main = ({ width, height }) => {
   const [clicked, setClicked] = useState("Intro");
-  const slides = ["Intro", "AboutUs", "Solution", "ProjectStatus", "Abstract", "Introduction", "InfoProblem", "DeepInfo", "ContosoSlider", "PipelineSlider", "Search"]
+  const slides = ["Intro", "AboutUs", "Solution", "ProjectStatus", "Abstract", "Introduction", "InfoProblem", "DeepInfo", "ContosoSlider", "PipelineSlider", "Search", "PrjDiff"]
   const clickFunc = (name) => {
     setClicked(name);
   }
@@ -34,6 +34,7 @@ const Main = ({ width, height }) => {
       <Element name="ContosoSlider"><ContosoSlider width={width} height={height} /></Element>
       <Element name="PipelineSlider"><PipelineSlider width={width} height={height} /></Element>
       <Element name="Search"><Search width={width} height={height} /></Element>
+      <Element name="PrjDiff"><GeneralPages.PrjDiff width={width} height={height} /></Element>
     </>
   );
 }
