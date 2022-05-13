@@ -10,16 +10,24 @@ const Solution = ({ width, height }) => {
                     Solution
                 </h1>
                 <div>
-                <img src={pic} style={{ float: "left", margin: "3em"}}/>
-                <p className="text">
-                    * Perform in-depth analysis of Microsoft network logs in order to create a comprehensive analysis report.
-                </p>
-                <p className="text">
-                    * Create classification guidelines to explain network log behavior for more efficient recognition and remediation of problems
-                </p>
-                <p className="text">
-                    * Develop an all encompassing web page to act as a one stop for an in depth analysis report and interactive classification search
-                </p>
+                    <img src={pic} style={{ float: "right", margin: "3em" }} />
+                    <ul className="no-bullet">
+                        <li>
+                            <p className="text">
+                                ○ &emsp; Perform in-depth analysis of Microsoft network logs in order to create a comprehensive analysis report.
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text">
+                                ○ &emsp; Create classification guidelines to explain network log behavior for more efficient recognition and remediation of problems
+                            </p>
+                        </li>
+                        <li>
+                            <p className="text">
+                                ○  &emsp;   Develop an all encompassing web page to act as a one stop for an in depth analysis report and interactive classification search
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

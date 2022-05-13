@@ -10,7 +10,7 @@ const AboutUs = ({ width, height }) => {
                     About Us
                 </h1>
                 <div>
-                <img src={pic} width="30%" style={{ float: "right", margin: "3em" }} />
+                <img src={pic} width="400px" style={{ top: "40%", float: "right", margin: "3em" }} />
                     <p className="text">
                         Our purpose is to help the Microft SLAM team understand the usefulness of some additional network telemetry signals for both traffic patterns of Microsoft Azure services and for enriching existing signals with other potential signals to have a bigger picture of the network traffic.
                     </p>
