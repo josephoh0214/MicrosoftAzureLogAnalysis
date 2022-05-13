@@ -24,7 +24,7 @@ export function Search({width, height}) {
     return (
         <div id="searchbox" style={{width: width}}>
             <h2>Search</h2>
-            <h4>* The default results below shown are some examples of requests users can search.</h4>
+            <h4>* The default results shown below are some examples of requests users can search.</h4>
             <h4>* Search function will be based on request names.</h4>
             <div id="searchbar">
                 <input type="text" placeholder="Search.." id="query"></input>
